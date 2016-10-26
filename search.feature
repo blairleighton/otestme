@@ -2,6 +2,6 @@ Feature: testing
   
   Scenario: find something
     Given  I am on "/search"
-    When I fill in "Search" with "test"
+    When I fill in "Search for an event, artist or venue" with "test"
     And I click "Go!"
     Then the ".media-heading" element should not contain "Manfeild Test Day"
