@@ -5,3 +5,5 @@ Feature: testing
     When I fill in "Search for an event, artist or venue" with "test"
     And I click "Go!"
     Then I should see "Manfeild Test Day"
+
+  
